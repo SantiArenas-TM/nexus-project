@@ -12,14 +12,14 @@ Plantilla de la **actividad de cierre de la Clase 1**. Se diligencia en clase, e
 
 | Campo | Respuesta |
 |---|---|
-| Nombre del equipo | _(completar)_ |
-| Fecha | _(completar)_ |
+| Nombre del equipo | _Nexus_ |
+| Fecha | _14/09/2026_ |
 
 | # | Integrante | Correo | Rol / responsabilidad |
 | --- | --- | --- | --- |
-| 1 | _(completar)_ | _(completar)_ | Coordinación _(obligatorio)_ |
-| 2 | _(completar)_ | _(completar)_ | _(completar)_ |
-| 3 | _(completar)_ | _(completar)_ | _(completar)_ |
+| 1 | _Santiago Arenas Rios_ | _santiagoarenitas@gmail.com_ | Coordinación _Lider_ |
+| 2 | _Julian Andres Arebelaez Rios_ | _arbelaezjulianandres@gmail.com_ | _Desarrollador_ |
+| 3 | _David Giraldo Henriet_ | _davidgiraldohenriet@gmail.com_ | _Administrativo_ |
 
 > El rol no es definitivo: se ajusta en la bitácora de gestión. Lo que sí queda fijo hoy es **quién coordina**.
 
@@ -27,15 +27,13 @@ Plantilla de la **actividad de cierre de la Clase 1**. Se diligencia en clase, e
 
 ## 2. Dominio propuesto
 
-**Dominio:** _(una línea — el sector o la actividad; e.g. "gestión de inventario para una tienda de barrio")_
+**Dominio:** _Software para optimización de tareas para el Dropshipping_
 
-**Problema que se quiere resolver** _(máximo tres líneas: qué pasa hoy, a quién le duele y por qué el proceso actual no alcanza)_:
+**Problema que se quiere resolver** _Se va a resolver el problema de que los vendedores pueden hacer sus tareas diarías más rápidamente y con una mejor optimización, como visualización de métricas de rendimiento de las campañas de en Facebook ADS, Creación de Landing Pages, Optimización de creativos de los productos, calculadora de precios y demás cálculos que requiere cada producto, ETC..._
 
-_(completar)_
 
-**Cómo se hace hoy sin software** _(o con qué herramienta improvisada: papel, WhatsApp, un Excel)_:
+**Cómo se hace hoy sin software** _Hoy en día se hace manualmente, ingresando a la página a la página de administrador de anuncios, los creativos se hacen manualmente editandolos con CapCut, los calculos de precios, promociones se hacen en excel manuelmanete, en si, todo le toca a uno ir a mirarlo manualmente según la tarea que deba de hacer_
 
-_(completar)_
 
 ---
 
@@ -43,8 +41,8 @@ _(completar)_
 
 | Tipo de usuario | Qué necesita hacer en el sistema | ¿Tenemos acceso para entrevistarlo? |
 | --- | --- | --- |
-| _(completar)_ | _(completar)_ | Sí / No — _(quién es)_ |
-| _(completar)_ | _(completar)_ | Sí / No — _(quién es)_ |
+| _Contador_ | _Hacer los calculos de precios_ |  Sí — _Compañero de Clase_ |
+| _Editor_ | _Creación de Landings Page_ | No — _No tenemos uno cercano_ |
 
 > Al menos **un usuario real y accesible** es obligatorio: en la Clase 3 hay que hacerle una sesión de elicitación de verdad.
 
@@ -54,7 +52,7 @@ _(completar)_
 
 **¿Por qué este equipo puede levantar requisitos de este dominio?** _(acceso a usuarios reales, alguien trabaja o trabajó ahí, experiencia previa con el proceso, etc.)_
 
-_(completar)_
+_Mi compañero de clase Santaigo Arenas, tiene una expericia previa en el ambitó del Dropshipping, y el resto del equipo lo está estudiando para poder ejercerlo_
 
 ---
 
@@ -62,26 +60,26 @@ _(completar)_
 
 **Tres cosas que el sistema sí debe hacer**:
 
-1. _(completar)_
-2. _(completar)_
-3. _(completar)_
+1. _Visualización de métricas de rendimiento de las campañas de Facebook ADS_
+2. _Creación de Landing Pages_
+3. _Calculadora de costos por producto_
 
 **Tres cosas que el sistema no va a hacer**:
 
-1. _(completar)_
-2. _(completar)_
-3. _(completar)_
+1. _Gestión de inventario_
+2. _Pagos en línea_
+3. _Domicilios o Envíos_
 
 ---
 
 ## 6. Autoverificación
 
-- [ ] Hay **usuarios reales accesibles** para entrevistar en la Clase 3.
-- [ ] El dominio da para **10 requisitos funcionales y 5 no funcionales** sin inventarlos.
-- [ ] Los **tres casos críticos** se ven implementables end-to-end en seis semanas.
-- [ ] El proyecto **no fue desarrollado** en otra asignatura ni se está reciclando.
-- [ ] No es demasiado grande _(una red social completa)_ ni demasiado pequeño _(una calculadora)_.
-- [ ] El sistema **maneja datos personales**: Sí / No. Si es Sí, aplica la Ley 1581 de 2012 en el numeral 10 de la Nota 1.
+- [✅] Hay **usuarios reales accesibles** para entrevistar en la Clase 3.
+- [✅] El dominio da para **10 requisitos funcionales y 5 no funcionales** sin inventarlos.
+- [✅] Los **tres casos críticos** se ven implementables end-to-end en seis semanas.
+- [✅] El proyecto **no fue desarrollado** en otra asignatura ni se está reciclando.
+- [✅] No es demasiado grande _(una red social completa)_ ni demasiado pequeño _(una calculadora)_.
+- [❌] El sistema **maneja datos personales**: Sí / No. Si es Sí, aplica la Ley 1581 de 2012 en el numeral 10 de la Nota 1.
 
 ---
 
@@ -89,11 +87,17 @@ _(completar)_
 
 Referencia de nivel de detalle esperado. **No se puede usar este dominio.**
 
-- **Dominio:** control de turnos en una barbería de barrio con tres sillas.
-- **Problema:** los turnos se anotan en un cuaderno; los clientes llegan sin saber la espera y se van, y el dueño no sabe cuánto factura cada barbero al mes.
-- **Hoy:** cuaderno físico y llamadas telefónicas.
-- **Usuarios:** cliente _(reserva y consulta su turno)_, barbero _(ve su agenda del día)_, administrador _(cierra caja y ve el reporte mensual)_. Acceso real: el tío de un integrante es dueño del local.
-- **Sí hace:** reservar turno, ver agenda del día por barbero, cerrar caja con reporte de ingresos.
+- **Dominio:** Optimización de tareas diarias del Dropshipping.
+- **Problema:** Los vendedores de Dropshipping pierden mucho tiempo haciendo tareas manuales, como revisar métricas de campañas, crear landing pages y calcular precios de productos. Esto reduce su eficiencia y rentabilidad.
+- **Hoy:** Se hace todo manualmente, ingresando a diferentes plataformas, editando creativos con herramientas externas y realizando cálculos en hojas de cálculo.
+- **Usuarios:** 
+  - Contador: necesita hacer cálculos de precios.
+  - Editor: necesita crear landing pages.
+- **Capacidad del equipo:** Uno de los integrantes tiene experiencia previa en Dropshipping, y el resto del equipo está estudiando el tema para poder contribuir efectivamente.
+- **Sí hace:** 
+  - Visualización de métricas de rendimiento de campañas de Facebook ADS.
+  - Creación de landing pages.
+  - Calculadora de costos por producto.
 - **No hace:** pagos en línea, domicilios, inventario de productos.
 
 ---
