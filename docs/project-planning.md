@@ -96,9 +96,7 @@ Primera entrada de la bitácora de gestión.
 | --- | --- |
 | Fecha | *14/09/2026* |
 | Asistentes | *Julián Andrés Arbeláez, Santiago Arenas Ríos, David Giraldo Henriet.* |
-| Decisiones tomadas | *1. Adopción del marco de trabajo Scrum con Sprints de 2 semanas.
-2. Uso de GitHub Projects como herramienta oficial para el tablero y gestión del Backlog.
-3. Elección de Python como lenguaje base para el desarrollo del backend y la lógica de la plataforma.* |
+| Decisiones tomadas | *1. Adopción del marco de trabajo Scrum con Sprints de 2 semanas. 2. Uso de GitHub Projects como herramienta oficial para el tablero y gestión del Backlog. 3. Elección de Python como lenguaje base para el desarrollo del backend y la lógica de la plataforma.* |
 | Compromisos *(quién, qué)* | *• Julián Arbeláez (PO): Redactar y priorizar las primeras historias de usuario en el Backlog de GitHub Projects.
 • Santiago Arenas (SM): Configurar la estructura del tablero en GitHub Projects y establecer el flujo de ramas en el repositorio.
 • David Giraldo (Dev): Inicializar la arquitectura base del proyecto en Python y preparar el entorno de desarrollo local.* |
