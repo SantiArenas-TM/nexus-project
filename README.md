@@ -107,3 +107,4 @@ Referencia de nivel de detalle esperado. **No se puede usar este dominio.**
 ```bash
 UI → Controlador → ServicioIA «interfaz» → AdaptadorProveedor → API del modelo → AdaptadorSimulado → respuesta fija (pruebas)
 ```
+
