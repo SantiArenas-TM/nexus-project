@@ -22,10 +22,10 @@ class product:
 # Este método sirve para devolver en un diccionario los precios que se calcularon
     def to_dict(self):
         return {
-            "ID": self.ID,
-            "NOMBRE": self.NOMBRE,
-            "COSTO_ADQUISICION": self.COSTO_ADQUISICION,
-            "FLETE_ESTIMADO": self.FLETE_ESTIMADO,
-            "PRECIO_SUGERIDO": self.PRECIO_SUGERIDO,
-            "MARGEN_NETO": self.MARGEN_NETO,
+            "id_product": self.id_product,
+            "name_product": self.name_product,
+            "acquisicion_cost": self.acquisicion_cost,
+            "estimated_freight": self.estimated_freight,
+            "suggested_price": self.suggested_price,
+            "netMargin": self.netMargin,
     }
