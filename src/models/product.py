@@ -1,7 +1,7 @@
 class product:
     def __init__(self, id_product, name_product, acquisicion_cost, estimated_freight):
         self.id_product = id_product
-        self.nameProduct = name_product
+        self.name_Product = name_product
         self.acquisicion_cost = acquisicion_cost 
         self.estimated_freight = estimated_freight
         self.suggested_price = 0.0
@@ -23,7 +23,7 @@ class product:
     def to_dict(self):
         return {
             "id_product": self.id_product,
-            "name_product": self.name_product,
+            "name_product": self.name_Product,
             "acquisicion_cost": self.acquisicion_cost,
             "estimated_freight": self.estimated_freight,
             "suggested_price": self.suggested_price,
