@@ -16,10 +16,11 @@ from src.views.producto_view import show_product_menu
 from src.views.metrica_view import show_metric_menu
 from src.views.descuento_view import show_discount_menu
 from src.views.envio_view import show_shipment_menu
+from src.views.ia_view import show_ai_landing
 
 DEFAULT_HOST = os.getenv("NEXUS_HOST", "127.0.0.1")
 DEFAULT_PORT = int(os.getenv("NEXUS_PORT", "65432"))
-TIMEOUT_SECONDS = 5
+TIMEOUT_SECONDS = 60
 BUFFER_SIZE = 4096
 # The backend reads every request with a single recv(1024).
 SERVER_MAX_REQUEST_BYTES = 1024
@@ -139,6 +140,7 @@ def main():
         "2": show_metric_menu,
         "3": show_discount_menu,
         "4": show_shipment_menu,
+        "5": show_ai_landing,
     }
 
     try:
@@ -148,8 +150,9 @@ def main():
             print("2. Métricas de campañas")
             print("3. Descuentos por cantidad")
             print("4. Seguimiento de envíos")
+            print("5. Generar landing con IA")
             print("0. Salir")
-            option = read_option("Seleccione una opción: ", ["0", "1", "2", "3", "4"])
+            option = read_option("Seleccione una opción: ", ["0", "1", "2", "3", "4", "5"])
 
             if option == "0":
                 print("\n¡Hasta pronto!")

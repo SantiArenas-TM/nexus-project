@@ -5,12 +5,14 @@ from src.controllers.product_controller import product_controller
 from src.controllers.metric_controller import metric_controller
 from src.controllers.discount_controller import discount_controller
 from src.controllers.shipment_controller import shipment_controller
+from src.controllers.ia_controller import ia_controller
 
 # Inicializamos la instancia de cada controlador
 product_ctrl = product_controller()
 metric_ctrl = metric_controller()
 discount_ctrl = discount_controller()
 shipment_ctrl = shipment_controller()
+ia_ctrl = ia_controller()
 
 # Definimos el host y el puerto
 HOST = '127.0.0.1'
@@ -23,7 +25,7 @@ def process_request(json_message):
     command = json_message["comando"]
     payload = json_message["payload"]
 
-    # Llama a la función correspondiente según el comando
+    # Llama a la función correspondiente según el comando
     if command == "CREAR_PRODUCTO":
         result = product_ctrl.create_product(
             payload["id_product"],
@@ -78,6 +80,14 @@ def process_request(json_message):
 
     elif command == "OBTENER_ENVIOS":
         result = shipment_ctrl.get_all()
+
+    # El controlador de IA ya devuelve su propio estado (OK o ERROR)
+    elif command == "GENERAR_LANDING_IA":
+        return ia_ctrl.generate_landing(
+            payload["product_name"],
+            payload["main_benefit"],
+            payload["price"],
+        )
 
     # Si no se reconoce el comando devuelve un error y un mensaje de error
     else:
